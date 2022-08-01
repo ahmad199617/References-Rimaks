@@ -91,6 +91,8 @@
 
                     .menuItem{
                         width: 16%;
+                        margin-left: 10px;
+                        margin-right: 10px;
                     }
                     .menuItem-lang{
                         width: 7%;
@@ -196,6 +198,7 @@
                             font-family: 'Bebas Neue', cursive;
                             margin: 0;
                             position: relative;
+                            white-space: nowrap;
 
                         }
                             .lang-ul{    
@@ -456,6 +459,7 @@
 
                             .menuItem {
                                 width: 100%;
+                                margin: 0;
                             }
                             .HOVERD-not-active {
                                 background-color: #1A4990;
@@ -643,7 +647,23 @@
                             .lang-DIV:hover .active-text{transform: scale(1.2);}
                             .not-active-DIV:hover .active-text{transform: scale(1.2);}
                             .Inventory-M:hover .small-inventory{display: none;}
-                                    }
+
+
+                            
+                            
+                            
+                            
+
+
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        }
 
                                     /* **************** background **********************/
                         .background-section{ 
@@ -1021,7 +1041,7 @@
 
 
 
-                            /* ****************footer**********************/
+            /* ****************footer**********************/
             footer{
                 width: 100%;
                 height: 420px;
@@ -1140,6 +1160,17 @@
                 background-color: rgb(255, 255, 255);
                 width: 40px;
                 margin-right: 20px;
+                display: flex;
+                justify-content: center;
+                border-radius: 150px;
+                overflow: hidden;
+                align-content: center;
+                align-items: center;
+            }
+            .footer-social-IMG a {
+                height: 40px;
+                background-color: rgb(255, 255, 255);
+                width: 40px;
                 display: flex;
                 justify-content: center;
                 border-radius: 150px;
