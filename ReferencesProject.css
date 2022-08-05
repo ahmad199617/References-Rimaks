@@ -740,14 +740,15 @@
                                     display: flex;
                                     justify-content: center;
                                 }
-                            .Project-big-img{
-                                height: 400px;
-                                width: 400px;
-                                overflow: hidden;
-                                display: flex;
-                                justify-content: center;
-                                align-content: center;
-                            }
+                                .Project-big-img {
+                                    height: 400px;
+                                    width: 50%;
+                                    overflow: hidden;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-content: center;
+                                    align-items: center;
+                                }
                             .Project-img{
                                 position: relative;
                                 transition: all 0.2s;
@@ -756,7 +757,7 @@
                             
                             .Project-big-info{
                                 height: 100%;
-                                width: 400px;
+                                width: 50%;
 
                             }
 
@@ -843,12 +844,13 @@
                                     align-items: center;
                                 }
                                 .Project-big-img {
-                                    height: 324px;
+                                    height: 400px;
                                     width: 100%;
                                     overflow: hidden;
                                     display: flex;
                                     justify-content: center;
                                     align-content: center;
+                                    align-items: center;
                                 }
                                 .Project-big-info {
                                      height: auto; 
