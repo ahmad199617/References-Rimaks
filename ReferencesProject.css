@@ -749,11 +749,11 @@
                                     align-content: center;
                                     align-items: center;
                                 }
-                            .Project-img{
-                                position: relative;
-                                transition: all 0.2s;
-                                
-                            }
+                                .Project-img {
+                                    position: relative;
+                                    transition: all 0.2s;
+                                    width: -webkit-fill-available;
+                                }
                             
                             .Project-big-info{
                                 height: 100%;
@@ -803,6 +803,7 @@
                                 font-size: 15px;
                                 margin: 0;
                                 font-weight: bolder;
+                                white-space: nowrap;
                             }
                             .lien-MM-DIV {
                                 height: 100px;
@@ -831,7 +832,7 @@
                                 }
                                 .Project-M-DIV {
                                      height: auto; 
-                                    width: 80%;
+                                    width: 90%;
                                     display: flex;
                                     justify-content: center;
                                     flex-direction: column;
@@ -839,7 +840,7 @@
                                 }
                                 .lien-MM-DIV {
                                     height: 100px;
-                                    width: 65%;
+                                    width: 90%;
                                     display: flex;
                                     align-items: center;
                                 }
@@ -857,9 +858,10 @@
                                     width: 100%;
                                 }
                                 .Project-text-s {
-                                    font-size: 12px;
+                                    font-size: 11px;
                                     margin: 0;
                                     font-weight: bolder;
+                                    white-space: normal;
                                 }
 
                                 .Project-Line-DIV{
@@ -869,6 +871,11 @@
                                     justify-content: center;
                                     align-content: center;
                                     margin-bottom: 30px;
+                                }
+                                .Line-TEXT{
+                                    width: 100%;
+
+    
                                 }
 
 
@@ -891,35 +898,35 @@
                                 margin-bottom: 50px;
                             }
                             .M-img-div {
-                                width: 80%;
+                                width: 65%;
                                 display: flex;
-                                justify-content: center;
+                                justify-content: space-between;
                                 flex-wrap: wrap;
                             }
-                            .S-img-div{
-                                height: 250px;
-                                width: 400px;
+                            .S-img-div {
+                                height: 200px;
+                                width: 325px;
                                 overflow: hidden;
-                                margin: 30px;
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
+                                margin-bottom: 30px;
                             }
                             .M-img-R{
-                                height: inherit;
                                 transition: all 0.2s;
+                                width: inherit;
                             }
 
 
                             @media only screen and (max-width: 1000px) {
                                 .M-img-div {
-                                    width: 80%;
+                                    width: 90%;
                                     display: flex;
                                     justify-content: center;
                                     flex-wrap: wrap;
                                 }
                                 .S-img-div {
-                                    height: 150px;
+                                    height: 200px;
                                     width: 100%;
                                     overflow: hidden;
                                     margin: 0;
@@ -958,7 +965,7 @@
                                 align-items: center;
                                 transition: opacity .3s;
                                 opacity: 0%;
-                                z-index: -1000;
+                                z-index: -1;
                                 display: flex;
                             
                             
@@ -974,6 +981,7 @@
                                 
                             }
                              .backgrundIMG{
+                                height: 90%;
                                 overflow: hidden;
                                 z-index: 9999;
                                 background-size: contain;
